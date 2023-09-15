@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: #eedde8;
+}
+@font-face {
+    font-family: "font";
+    src: url(./fonts/Blender-Pro-Book.otf);
+}
+.link{
+    margin-top: 20px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    color: #ad548e;
+}
+h1,h2,h2,h4,h5,p,a,span,div{
+    font-family: "font";   
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 64px;
+    text-decoration: underline;
+    text-decoration-color: #ad548e;
+    text-decoration-line: underline;
+
+}
+.flex{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
